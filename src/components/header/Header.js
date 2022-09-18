@@ -5,7 +5,7 @@ import ME from "../../assets/me.png";
 import Socials from "./socials/Socials";
 export default function header() {
   return (
-    <header>
+    <header id="header">
       <div className="container header__container">
         <h5>Namaste, I'm</h5>
         <h1>Gani</h1>

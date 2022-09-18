@@ -1,5 +1,5 @@
 import React from "react";
 import "./about.css";
 export default function contact() {
-  return <div></div>;
+  return <section id="contact"></section>;
 }
