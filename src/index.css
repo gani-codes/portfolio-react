@@ -111,17 +111,15 @@ a:hover {
   section {
     margin-top: 6rem;
   }
-  .btn {
-    margin-bottom: 4rem;
-  }
 }
 /* For mobiles/small device */
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
+    margin: 0 1rem;
   }
 
   section {
-    margin-bottom: 2rem;
+    margin-bottom: 10rem;
   }
 }

@@ -30,7 +30,7 @@ export default function Nav() {
         <IoMdMedal />
       </a>
       <a
-        href="#services"
+        href="#portfolio"
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}
       >
