@@ -36,9 +36,7 @@ export default function about() {
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis
-            voluptatem eveniet ipsam exercitationem repellat nam reprehenderit
-            qui cumque ea, accusantium quo porro soluta voluptates officia eos
-            vero. Temporibus, optio quod.
+            voluptatem eveniet ipsam
           </p>
           <button className="btn btn-primary">Let's talk</button>
         </div>

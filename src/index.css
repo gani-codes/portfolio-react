@@ -10,10 +10,8 @@
 }
 :root {
   --color-bg: #1f1f38;
-  /* --color-bg: #103050; */
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
-  /* --color-primary: #10c95d; */
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
@@ -105,7 +103,7 @@ a:hover {
 }
 
 /* For tablet/medium devices */
-@media screen and (max-width: 1024) {
+@media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
@@ -113,9 +111,12 @@ a:hover {
   section {
     margin-top: 6rem;
   }
+  .btn {
+    margin-bottom: 4rem;
+  }
 }
 /* For mobiles/small device */
-@media screen and (max-width: 600) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
