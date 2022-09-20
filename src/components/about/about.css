@@ -65,7 +65,7 @@
 @media screen and (max-width: 1024px) {
   .about__container {
     grid-template-columns: 1fr;
-    gap: 15%;
+    gap: 10%;
   }
   .about__me {
     width: 50%;
